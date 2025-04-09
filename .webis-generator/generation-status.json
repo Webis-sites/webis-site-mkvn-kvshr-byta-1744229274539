@@ -1,11 +1,19 @@
 {
-  "timestamp": "2025-04-09T20:31:02.618Z",
+  "timestamp": "2025-04-09T20:32:11.045Z",
   "status": {
     "totalComponents": 0,
     "completedComponents": 0,
-    "failedComponents": 0,
+    "failedComponents": 1,
     "progress": 0
   },
-  "components": [],
+  "components": [
+    {
+      "name": "Site Plan",
+      "type": "plan",
+      "status": "failed",
+      "description": "יצירת תוכנית האתר",
+      "error": "שגיאה בשירות Anthropic: No object generated: response did not match schema."
+    }
+  ],
   "repoName": "webis-site-mkvn-kvshr-byta-1744229274539"
 }
